@@ -20,12 +20,13 @@ Space Up Analytics es un dashboard interactivo que traduce la telemetría de la 
 * **Entorno:** Google Colab / Jupyter Notebook
 * **Librerías principales:** pandas, numpy, plotly, ipyleaflet, ipywidgets, geopy
 
-## 📖 Cómo ejecutar el proyecto en Google Colab
-Para probar el simulador de Space Up Analytics, sigue estos pasos:
-1. **Preparar el Dataset:** Sube el archivo `Humedad_Suelo_SMAP_ZonaNucleo_2024.csv` a la raíz de tu Google Drive (Mi Unidad).
+## 📖 Cómo ejecutar el proyecto
+1. **Preparar el Dataset:** Sube el archivo `Humedad_Suelo_SMAP_ZonaNucleo_2024.csv` a la raíz de tu Google Drive.
 2. **Abrir el entorno:** Sube el archivo `.ipynb` de este repositorio a Google Colab.
-3. **Ejecutar el Código:** En Colab, ve a `Entorno de ejecución > Ejecutar todas`. El sistema te pedirá permisos para montar tu Google Drive. Acepta para que el script pueda leer el archivo CSV.
-4. **Interacción:** Utiliza el panel izquierdo para buscar una ubicación (ej. 2125 para Zavalla) o haz clic en el mapa. Ajusta los parámetros del cultivo y el nivel de Buffer en el panel derecho. Haz clic en "Ejecutar Simulación" para visualizar el diagnóstico agronómico y el gráfico interactivo.
+3. **Ejecutar el Código:** Ve a `Entorno de ejecución > Ejecutar todas` y otorga permisos de lectura.
+4. **Interacción:** Utiliza el panel izquierdo para buscar una ubicación o haz clic en el mapa. Ajusta los parámetros y ejecuta la simulación.
 
 ---
-**Autor:** Bautista Legno - CEO y Desarrollador
+**Equipo Fundador:**
+* 🌾 **Bautista Legno** - Lógica Agronómica y Negocios (Estudiante de Ingeniería Agronómica)
+* 💻 **Thiago Osellame** - Arquitectura de Software y Datos (Estudiante de Ciencia de Datos)
